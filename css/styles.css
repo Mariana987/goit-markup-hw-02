@@ -6,6 +6,7 @@
 
 body {
   font-family: roboto, sans-serif;
+  color: #212121;
 }
 li {
   list-style: none;
@@ -73,43 +74,43 @@ li {
 }
 
 .section {
-  color: #757575;
   letter-spacing: 0.03em;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
 }
+
 .section-title {
-  color: #212121;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
 }
+
 .section-item {
-  color: #212121;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
 }
 
+.information {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+
 .team-member {
-  color: #212121;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
 }
 .profession {
-  font-weight: 400;
+  color: #757575;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
 }
 .address {
   color: #ffffff;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
   font-style: normal;
@@ -117,7 +118,6 @@ li {
 .communication-second {
   color: #757575;
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
@@ -132,6 +132,7 @@ li {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 .portfolio-button:focus,
 .portfolio-button:hover {
